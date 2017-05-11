@@ -10,12 +10,91 @@
         android:layout_width="368dp"
         android:layout_height="495dp"
         android:orientation="horizontal"
-        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="8dp">
 
-        <ListView
-            android:id="@+id/listView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:text="车队编号"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:text="小车编号"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:text="车速"
+                android:textSize="30sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:text="车间距离"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="177dip"
+                android:text="取消" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="189dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.83"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.03"
+                android:entries="@array/carArray"></Spinner>
+
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="0.02"></Spinner>
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:ems="10"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="137dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="200dip"
+                android:text="确认" />
+        </LinearLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
