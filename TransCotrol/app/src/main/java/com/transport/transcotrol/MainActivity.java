@@ -2,13 +2,11 @@ package com.transport.transcotrol;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.ArrayAdapter;
-import android.widget.Spinner;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Spinner spinner = null;
-    private ArrayAdapter<CharSequence> adapter = null;
+//    private Spinner spinner = null;
+//    private ArrayAdapter<CharSequence> adapter = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
