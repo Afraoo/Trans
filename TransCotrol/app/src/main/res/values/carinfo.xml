@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string-array name ="carArray">
-        <item>1号</item>
-        <item>2号</item>
-        <item>3号</item>
-    </string-array>
-</resources>

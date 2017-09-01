@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">智&#160;&#160;慧&#160;&#160;交&#160;&#160;通</string>
+    <string name="choose">&#160;请选择:&#160;</string>
+    <string name="speedUnits">m/s</string>
+    <string name="speed">速&#160;&#160;&#160;度</string>
+    <string name="stop">急&#160;&#160;&#160;停</string>
+    <string name="speedE">speed</string>
+    <string name="drivingDistance">车&#160;&#160;间&#160;&#160;距</string>
+    <string name="drivingDistanceE">distance</string>
+    <string name="distanceUnits">&#160;m</string>
+    <string name="action_settings">Settings</string>
+    <string name="affirm">确&#160;&#160;&#160;认</string>
+    <string name="carNumber">队内编号&#160;:&#160;</string>
+    <string name="teamNumber">车队编号&#160;:&#160;</string>
+    <string name="angle">角&#160;&#160;&#160;度</string>
+    <string name="angleE">angle</string>
+    <string name="angleUnits">度</string>
+    <string name="allCar">全部</string>
+    <string name="separate">分流</string>
+    <string name="back">返回</string>
+</resources>
